@@ -16,15 +16,15 @@ function App() {
     contract: null
   });
   const saveState=(state)=>{
-    console.log(state);
     setState(state);
+    console.log(state);
   }
   return (
     <>
       <Wallet saveState={saveState}></Wallet>
       <Hero />
       <Handles />
-      <Projects/>
+      <Projects state={state}/>
       <Skills />
       <Experience/>
       <Contact/>

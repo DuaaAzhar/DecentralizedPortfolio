@@ -2,19 +2,6 @@
 	{
 		"inputs": [
 			{
-				"internalType": "string",
-				"name": "_description",
-				"type": "string"
-			}
-		],
-		"name": "changeDescription",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "uint256",
 				"name": "_id",
 				"type": "uint256"
@@ -54,7 +41,7 @@
 			},
 			{
 				"internalType": "string",
-				"name": "_dateRange",
+				"name": "_timeRange",
 				"type": "string"
 			},
 			{
@@ -74,19 +61,6 @@
 			}
 		],
 		"name": "changeExperience",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "_imageLink",
-				"type": "string"
-			}
-		],
-		"name": "changeImageLink",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -125,21 +99,8 @@
 		"type": "function"
 	},
 	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "_resumeLink",
-				"type": "string"
-			}
-		],
-		"name": "changeResumeLink",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"inputs": [],
-		"name": "donate",
+		"name": "donateEth",
 		"outputs": [],
 		"stateMutability": "payable",
 		"type": "function"
@@ -176,7 +137,7 @@
 		"inputs": [
 			{
 				"internalType": "string",
-				"name": "_dateRange",
+				"name": "_timeRange",
 				"type": "string"
 			},
 			{
@@ -232,6 +193,126 @@
 		"inputs": [],
 		"stateMutability": "nonpayable",
 		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "allEducation",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "degree",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "knowledgeAcquired",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "instituteName",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Portfolio.Education[3]",
+				"name": "",
+				"type": "tuple[3]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "allExperiences",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "timeRange",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "designation",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "experienceAcquired",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "companyName",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Portfolio.Experience[3]",
+				"name": "",
+				"type": "tuple[3]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "allProjects",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "image",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "githubLink",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Portfolio.Project[3]",
+				"name": "",
+				"type": "tuple[3]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
 	},
 	{
 		"inputs": [],
@@ -302,7 +383,7 @@
 			},
 			{
 				"internalType": "string",
-				"name": "dateRange",
+				"name": "timeRange",
 				"type": "string"
 			},
 			{

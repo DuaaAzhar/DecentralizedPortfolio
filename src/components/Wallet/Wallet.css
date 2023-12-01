@@ -15,7 +15,7 @@
 
 }
 
-.connectBTN {
+.connectBTN{
     width: 160px;
     height: 38px;
     font-size: 14px;
@@ -29,7 +29,7 @@
 a:hover{
     color: white !important;
 }
-.connectBTN:hover{
+.connectBTN:not([disabled]):hover{
     color: white;
     background-color: var(--color-blue);
 }
