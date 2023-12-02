@@ -22,11 +22,11 @@ function App() {
   return (
     <>
       <Wallet saveState={saveState}></Wallet>
-      <Hero />
+      <Hero state={state}/>
       <Handles />
       <Projects state={state}/>
       <Skills />
-      <Experience/>
+      <Experience state={state}/>
       <Contact/>
       <Handles />
     </>

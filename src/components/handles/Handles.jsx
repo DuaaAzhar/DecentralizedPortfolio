@@ -6,9 +6,9 @@ import { FaGithubSquare } from 'react-icons/fa';
 const Handles = () => {
   return (
     <section className='socials'>
-      <a href="https://www.linkedin.com/in/kshitij-srivastava-4778a8151/" target='_blank' rel="noopener noreferrer"><AiFillLinkedin className='icon' /></a>
-      <a href="https://twitter.com/kshitijweb3?lang=en" target='_blank' rel="noopener noreferrer"><AiFillTwitterSquare className='icon' /></a>
-      <a href="https://github.com/kshitijofficial" target='_blank' rel="noopener noreferrer"><FaGithubSquare className='icon' />
+      <a href="https://www.linkedin.com/in/duaa-azhar-445579209/" target='_blank' rel="noopener noreferrer"><AiFillLinkedin className='icon' /></a>
+      <a href="https://twitter.com/duaa_azhar" target='_blank' rel="noopener noreferrer"><AiFillTwitterSquare className='icon' /></a>
+      <a href="https://github.com/DuaaAzhar" target='_blank' rel="noopener noreferrer"><FaGithubSquare className='icon' />
       </a>
 
 
