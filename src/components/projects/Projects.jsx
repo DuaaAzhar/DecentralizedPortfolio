@@ -39,7 +39,7 @@ const Projects = ({state}) => {
                     const githubLink = `https://github.com/DuaaAzhar/${project.githubLink}`;
                     return ( <a href= {githubLink} className="project-card" target='_blank' rel="noopener noreferrer" >
                     <div className="card-img">
-                        <img src={img} alt="" /></div>
+                        <img src={`https://teal-able-woodpecker-429.mypinata.cloud/ipfs/${project.image}?pinataGatewayToken=dbn-BIRBt1_VcPnVAz7bptIkX-mU4gFpELukz0hWGNjSHTz7Umb2fYW-0UXVU738`} alt="" /></div>
                     <div className="card-text">
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>

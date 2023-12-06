@@ -27,7 +27,7 @@ function App() {
       <Projects state={state}/>
       <Skills />
       <Experience state={state}/>
-      <Contact/>
+      <Contact state={state}/>
       <Handles />
     </>
   );

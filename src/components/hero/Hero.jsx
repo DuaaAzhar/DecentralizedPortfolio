@@ -34,7 +34,7 @@ const Hero = ({state}) => {
             <div className="hero-text">
                 <p><span>Duaa Azhar </span>
                     is a Full-Stack Blockchain Developer From Pakistan.</p>
-                <h1>I develop decentralised apps in web3 space.</h1>
+                <h1>I develop decentralized apps in Blockchain space.</h1>
                 <h3>{description}</h3>
                 {/*  =========popup bootstrap==========  */}
 
@@ -56,8 +56,7 @@ const Hero = ({state}) => {
             <div className="hero-img">
 
                 <div className="img-container">
-                    {/* <img src={`https://gateway.pinata.cloud/ipfs/${image}`} alt="profilePhoto" /> */}
-                    <img src={heroImg} alt="profilePhoto" />
+                    <img src={`https://teal-able-woodpecker-429.mypinata.cloud/ipfs/${image}?pinataGatewayToken=dbn-BIRBt1_VcPnVAz7bptIkX-mU4gFpELukz0hWGNjSHTz7Umb2fYW-0UXVU738`} alt="profilePhoto" />
                 </div>
             </div>
         </div>

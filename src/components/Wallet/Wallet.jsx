@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 
 const Wallet =({saveState})=>{
+      const isAndroid= /android/i.test(navigator.userAgent);
       const [connected, setConnected] = useState(false);
       const init = async() =>{
             try {
@@ -12,7 +13,7 @@ const Wallet =({saveState})=>{
                   await window.ethereum.request({method: 'eth_requestAccounts'});
                   const contract = new web3.eth.Contract(
                         ABI,
-                        "0xd56D808155eAA96117b9669B7CEC53339e68BD24"
+                        "0x861A6F30a4c3f1d602CC9Ad0762F1C7dd90d25Cb"
                   );
                   saveState({web3:web3,contract:contract});
                   setConnected(true);
@@ -22,7 +23,7 @@ const Wallet =({saveState})=>{
       }
       return<>
       <div className="header">
-      {false  && <button className="connectBTN">
+      {isAndroid  && <button className="connectBTN">
          <a href="https://metamask.app.link/dapp/sriche.netlify.app/">Click For Mobile</a>
         </button>  } 
        <button onClick={init}

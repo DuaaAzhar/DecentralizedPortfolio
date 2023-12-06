@@ -10,8 +10,9 @@ const Experience = ({state}) => {
     useEffect(()=>{
        const {contract}= state;
        const experiences= async()=>{
-        const contractExperience = await contract.methods.allExperiences().call();
+        const contractExperience = await contract.methods.allExperience().call();
         setExperience(contractExperience);
+        console.log(experiences);
        }
        contract && experiences();
     },[state])
@@ -58,7 +59,7 @@ const Experience = ({state}) => {
                                 <div className="edu-card">
                                     <p className="card-text1">
                                         <SlCalender className="icon"/>
-                                        {experience.timeRange}
+                                        {experience.dateRange}
                                     </p>
                                     <h3 className="card-text2">{experience.designation}</h3>
                                     <h3 className="card-text3">{experience.experienceAcquired}</h3>
