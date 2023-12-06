@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from 'react'
 import { Modal, ModalBody, Row } from "reactstrap"
-import heroImg from '../../assets/hero-img.png'
+import heroImg from '../../assets/hero-img2.png'
 import './Hero.css'
 
 const Hero = ({state}) => {
