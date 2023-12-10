@@ -6,33 +6,29 @@ import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import "./index.css";
-import { useState } from 'react';
-
+import { useState } from "react";
 
 function App() {
-  
   const [state, setState] = useState({
     web3: null,
-    contract: null
+    contract: null,
   });
-  const saveState=(state)=>{
+  const saveState = (state) => {
     setState(state);
     console.log(state);
-  }
+  };
   return (
     <>
       <Wallet saveState={saveState}></Wallet>
-      <Hero state={state}/>
+      <Hero state={state} />
       <Handles />
-      <Projects state={state}/>
+      <Projects state={state} />
       <Skills />
-      <Experience state={state}/>
-      <Contact state={state}/>
+      <Experience state={state} />
+      <Contact state={state} />
       <Handles />
     </>
   );
-  }
+}
 
 export default App;
-
-

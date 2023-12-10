@@ -1,6 +1,5 @@
 .socials {
     background-color: var(--color-bg);
-
     width: 100%;
     display: flex;
     justify-content: center;
@@ -21,13 +20,25 @@
 @media screen and (max-width: 420px) {
     .socials {
         gap: 20px;
-
     }
 
     .socials .icon {
         color: var(--color-blue);
         margin: 12px 0 12px 0;
-        height: 40px;
-        width: 40px;
+        height: 30px !important;
+        width: 30px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .socials {
+        gap: 50px;
+    }
+
+    .socials .icon {
+        color: var(--color-blue);
+        margin: 12px 0 12px 0;
+        height: 60px;
+        width: 60px;
     }
 }

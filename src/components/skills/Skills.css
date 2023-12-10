@@ -1,6 +1,5 @@
-.skills-section{
+.skills-section {
     background-color: var(--color-bg);
-    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,25 +7,83 @@
     gap: 80px;
     border-top: 1px var(--color-blue) solid;
     border-bottom: 1px var(--color-blue) solid;
-
 }
-.skills-section img{
+
+.skills-section img {
     width: 50px;
     height: 50px;
     margin: 20px 0 20px 0;
 }
 
 /* =========media querries========== */
-@media screen and (max-width: 420px) {
-    .skills-section{
+@media screen and (max-width: 390px) {
+    .skills-section {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
-    
+        gap: 1px !important;
     }
-    .skills-section img{
+
+    .skills-section img {
+        width: 15px !important;
+        height: 15px !important;
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .skills-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px !important;
+
+    }
+
+    .skills-section img {
+        width: 30px !important;
+        height: 30px !important;
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px !important;
+
+    }
+
+    .skills-section img {
+        width: 30px !important;
+        height: 30px !important;
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px !important;
+    }
+
+    .skills-section img {
         width: 40px;
         height: 40px;
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .skills-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .skills-section img {
+        width: 50px;
+        height: 50px;
         margin: 20px 0 20px 0;
     }
 }
