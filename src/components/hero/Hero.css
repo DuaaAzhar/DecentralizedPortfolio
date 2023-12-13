@@ -110,49 +110,113 @@
 
 /* =========media querries========== */
 @media screen and (max-width: 420px) {
-
     .hero {
         flex-direction: column-reverse;
         height: auto;
     }
-
     .container {
         flex-direction: column-reverse !important;
         justify-content: center;
         gap: 20px !important;
     }
-
     .hero-img {
         margin: 0 auto;
-
     }
-
     .hero-img .img-container img {
         width: 300px;
         margin-top: 40px;
     }
-
     .hero-text {
         width: 100%;
         margin-top: 40px;
         padding: 0 20px 0 20px;
         text-align: center;
-
     }
+    .hero-text p {
+        font-size: 12px !important;
+    }
+    .hero-text p span {
+        font-size: 12px !important;
+    }
+    .hero-text h1 {
+        font-size: 24px !important;
+    }
+    .hero-text h3 {
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .hero {
+        /* flex-direction: column-reverse; */
+        height: auto;
+    }
+    .container {
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        gap: 20px !important;
+    }
+    .hero-img {
+        margin: 0 auto;
+    }
+    .hero-img .img-container img {
+        width: 300px;
+        margin-top: 40px;
+    }
+    .hero-text {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 20px 0 20px;
+        text-align: center;
+    }
     .hero-text p {
         font-size: 12px;
     }
-
     .hero-text p span {
         font-size: 12px;
     }
-
     .hero-text h1 {
         font-size: 32px;
-
     }
+    .hero-text h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
 
+@media screen and (max-width: 1124px) {
+    .hero {
+        /* flex-direction: column-reverse; */
+        height: auto;
+    }
+    .container {
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        gap: 20px !important;
+    }
+    .hero-img {
+        margin: 0 auto;
+    }
+    .hero-img .img-container img {
+        width: 300px;
+        margin-top: 40px;
+    }
+    .hero-text {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 20px 0 20px;
+        text-align: center;
+    }
+    .hero-text p {
+        font-size: 12px;
+    }
+    .hero-text p span {
+        font-size: 12px;
+    }
+    .hero-text h1 {
+        font-size: 32px;
+    }
     .hero-text h3 {
         font-size: 14px;
         line-height: 20px;
