@@ -34,36 +34,24 @@ const Projects = ({ state }) => {
     }
   };
 
-  return (
-    <section className="project-section">
-      <h1 className="title">Projects </h1>
-      <div className="card-wrapper">
-        {projects != "" &&
-          projects.map((project) => {
-            const githubLink = `https://github.com/DuaaAzhar/${project.githubLink}`;
-            return (
-              <a
-                href={githubLink}
-                className="project-card"
-                target="_blank"
-                rel="noopener noreferrer"
-                key={project}
-              >
-                <div className="card-img">
-                  <img
-                    src={`https://teal-able-woodpecker-429.mypinata.cloud/ipfs/${project.image}?pinataGatewayToken=dbn-BIRBt1_VcPnVAz7bptIkX-mU4gFpELukz0hWGNjSHTz7Umb2fYW-0UXVU738`}
-                    alt=""
-                  />
-                </div>
-                <div className="card-text">
-                  <h3>{project.name}</h3>
-                  <p>{project.description}</p>
-                </div>
-              </a>
-            );
-          })}
-      </div>
-      {/*  =========popup bootstrap==========  */}
+    return (
+        <section className="project-section">
+            <h1 className="title">Projects </h1>
+            <div className="card-wrapper">
+                 {projects!="" && projects.map((project)=>{
+                    const githubLink = `https://github.com/DuaaAzhar/${project.githubLink}`;
+                    return ( <a href= {githubLink} className="project-card" target='_blank' rel="noopener noreferrer" >
+                    <div className="card-img">
+                    <img src= {`https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmR9VyCCgdHoJdN6jsBw7QsNFCYwNsrxRbpcSAaGEGPSnD/${project.image}`}/></div>
+                    <div className="card-text">
+                        <h3>{project.name}</h3>
+                        <p>{project.description}</p>
+                    </div>
+                </a>)
+                })} 
+           
+            </div>
+ {/*  =========popup bootstrap==========  */}
 
       <Modal size="md" isOpen={modal} toggle={() => setModal(!modal)}>
         <ModalHeader toggle={() => setModal(!modal)}>

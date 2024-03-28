@@ -1,8 +1,6 @@
-/* eslint-disable no-unused-vars, react/prop-types, react/no-unknown-property */
-import React, { useEffect, useState } from "react";
-import { Modal, ModalBody, Row } from "reactstrap";
-import heroImg from "../../assets/hero-img2.png";
-import "./Hero.css";
+import React, { useEffect, useState} from 'react'
+import { Modal, ModalBody, Row } from "reactstrap"
+import './Hero.css'
 
 const Hero = ({ state }) => {
   const [modal, setModal] = useState(false);
@@ -51,20 +49,17 @@ const Hero = ({ state }) => {
             </ModalBody>
           </Modal>
 
-          <button className="msg-btn" onClick={() => setModal(true)}>
-            Get in Touch
-          </button>
-          {/*  =========popup bootstrap end==========  */}
+                <button className="msg-btn" onClick={() => setModal(true)}>Get in Touch</button>
+                {/*  =========popup bootstrap end==========  */}
+
+            </div>
+            <div className="hero-img">
+
+                <div className="img-container">
+                <img src={`https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmR9VyCCgdHoJdN6jsBw7QsNFCYwNsrxRbpcSAaGEGPSnD/${image}`} alt="profilePhoto" />
+                </div>
+            </div>
         </div>
-        <div className="hero-img">
-          <div className="img-container">
-            <img
-              src={`https://teal-able-woodpecker-429.mypinata.cloud/ipfs/${image}?pinataGatewayToken=dbn-BIRBt1_VcPnVAz7bptIkX-mU4gFpELukz0hWGNjSHTz7Umb2fYW-0UXVU738`}
-              alt="profilePhoto"
-            />
-          </div>
-        </div>
-      </div>
     </section>
   );
 };

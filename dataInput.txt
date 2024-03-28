@@ -1,0 +1,79 @@
+https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmR9VyCCgdHoJdN6jsBw7QsNFCYwNsrxRbpcSAaGEGPSnD/Duaa%27s%20Resume.pdf
+https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmR9VyCCgdHoJdN6jsBw7QsNFCYwNsrxRbpcSAaGEGPSnD/DuaaPicture.JPG
+https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmR9VyCCgdHoJdN6jsBw7QsNFCYwNsrxRbpcSAaGEGPSnD/mintBox.png
+https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmR9VyCCgdHoJdN6jsBw7QsNFCYwNsrxRbpcSAaGEGPSnD/prizeBond.jpg
+https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmR9VyCCgdHoJdN6jsBw7QsNFCYwNsrxRbpcSAaGEGPSnD/stakeMania.jpeg	
+
+
+contractAddress on Mumbai testnet= 0x00e8B97dc085F826DE00509c3B98D4c03241C55b
+contractAddress on Sepolia testnet= 0x2d2dCd6f411c5b9e048aa8D1a0144d084010db11
+
+
+1- Education:
+date: 2018 to 2022
+degree: BSCS
+knowledgeAcquired: 
+Final Year Project (Sign Language Recognizer) -> AI Based model to make the deaf people communicate with technologies like Google Assistant with the help of their sign language gestures. -> The model basically takes the dataset of Pakistan Sign Language gestures, converts the gestures in numpy arrays, train the model with this dataset, convert them into text language and pass them to Google Assistant. -> Google Assistant response with the answer, and again the model converts that text language answer into sign language gesture to convey.
+institutionName: UMT
+
+2- Education:
+date: 2016 to 2017
+degree: FSC
+knowledgeAcquired: SCIENCES
+institutionName: Kips College
+
+3- Education:
+date: 2014 to 2015
+degree: MATRIC
+knowledgeAcquired: SCIENCES
+institutionName: JFS
+
+
+1- Experience:
+dateRange: October 2022 to Continued
+designation: Blockchain Developer
+experienceAcquired: 
+-> UniswapV2 tradable tokens, with generation of LP tokens, automatic minting burning of tokens, tax deduction for buying and selling of tokens, blacklisting the tokens for specific trading period, generating profits for whitelisted members. -> Reflection tokens implementation with the erc20 standard tokens alongwith the minting and burning by maintaining the reflectiion token supply. -> Built the smart contracts with automatic minting and burning to maintain the supply and balancing the market cap.
+companyName: Eritheia Labs
+
+
+2- Experience:
+dateRange: March 2022 to October 2022
+designation: Blockchain Developer
+experienceAcquired: 
+-> erc20, erc721, enumerated erc721 contracts -> Staking pools creations, rewards generation, locking and unlocking assets in staking pools, Nft marketplaces. -> Digitalisation of prize bonds in the form of NFTs -> Nfts and assets minting on Cardano and Algorand Blockchain.
+companyName: Kryptomind
+
+
+3- Experience:
+dateRange: December 2021 to February 2022
+designation: Trainee Engineer
+experienceAcquired: 
+-> React Native App Development, learning to troubleshoot, bitbucket cloning. -> Front End Development, WordPress Development, Shopify, and the maintenance of personal and e-commerce websites, products uploading, page updating.
+companyName: Aldaim Solutions
+
+
+1- Project:
+name: Royal MintBox
+description: 
+A minting box with customized memberships with special discounts and facilities to white and gold members
+image: mintBox.png
+githubLink: 
+https://github.com/DuaaAzhar/RoyalMintBox
+
+2- Project:
+name: Digital Bond
+description: 
+Concept of digitalizing the prize bonds and getting rewards on them. NFTs are sold as a smart bond against PKR
+image: prizeBond.jpg
+githubLink: 
+https://github.com/DuaaAzhar/DigitalBond
+
+3- Project:
+name: Stake Mania
+description: 
+Staking pools creation which allow staking and reward generation on the basis of staked period and total members
+image: 
+stakeMania.jpeg
+githubLink: 
+https://github.com/DuaaAzhar/StakeMania
