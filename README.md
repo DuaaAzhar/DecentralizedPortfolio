@@ -1,4 +1,10 @@
 # React + Vite
+- Clone the repository
+- run `npm i`
+- Then run `npm run dev` to start the project
+- Install the metamask and do the basic setup and account creation. Connect with either **Sepolia** or **Mumbai** testnet.
+- Now connect your metamask with button **"Connect Metamask"** and **PORTFOLIO** is ready to see **!!**
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
