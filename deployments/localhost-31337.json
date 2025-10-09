@@ -1,0 +1,24 @@
+{
+  "network": "localhost",
+  "chainId": "31337",
+  "contractAddress": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+  "deployerAddress": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "deploymentTime": "2025-09-19T11:33:35.535Z",
+  "transactionHash": "0xc8346f9fd99f231298408229f5900d23402e5b041c40669a98437258904649a1",
+  "portfolioConfig": {
+    "owner": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "name": "Duaa Azhar",
+    "bio": "Building the future with decentralized technologies. Passionate about creating innovative blockchain solutions that bridge traditional finance with DeFi protocols.",
+    "profileImage": "https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmNLiko8wC6JXpes6G5xPdameU6KLJZWyiCpwkV7XzicGM",
+    "resumeLink": "https://magenta-alleged-falcon-434.mypinata.cloud/ipfs/QmPa4KLwhQKWr1fexmKyRHZTa7TX7CSQLuj5FKsZnvk2N8",
+    "location": "Lahore, Pakistan",
+    "email": "duaaazhar04@gmail.com",
+    "socialLinks": [
+      "https://github.com/DuaaAzhar",
+      "https://www.linkedin.com/in/duaa-azhar-445579209/",
+      "https://x.com/i/flow/login?lang=en"
+    ]
+  },
+  "gasUsed": "30000000",
+  "gasPrice": "536099394"
+}

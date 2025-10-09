@@ -10,7 +10,7 @@ import node from "../../assets/skills/node.svg";
 
 const Skills = () => {
   return (
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
       <img src={react} alt="react-icon" />
       <img src={btc} alt="btc-icon" />
       <img src={eth} alt="eth-icon" />

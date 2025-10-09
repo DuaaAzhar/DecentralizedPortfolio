@@ -1,44 +1,21 @@
 /* eslint-disable react/prop-types */
 import { SlCalender } from "react-icons/sl";
 import "./Experience.css";
-import { useEffect, useState } from "react";
 
-const Experience = ({ state }) => {
-  const [experiences, setExperience] = useState("");
-  const [educations, setEducation] = useState("");
-
-  // to get experiences from smart contract
-  useEffect(() => {
-    const { contract } = state;
-    const experiences = async () => {
-      const contractExperience = await contract.methods.allExperience().call();
-      setExperience(contractExperience);
-      console.log(experiences);
-    };
-    contract && experiences();
-  }, [state]);
-
-  // to get education from smart contract
-  useEffect(() => {
-    const { contract } = state;
-    const educationDetails = async () => {
-      const contractEducation = await contract.methods.allEducation().call();
-      setEducation(contractEducation);
-    };
-    contract && educationDetails();
-  }, [state]);
+const Experience = ({ experiences, educations }) => {
+  // Data is now passed as props from App.jsx, no need for contract calls
 
   return (
-    <section className="exp-section">
+    <section id="experience" className="exp-section">
       <h1 className="title">Experience & Education </h1>
 
       <div className="container">
         <div className="education">
           <h1 className="edu-tittle">Education</h1>
-          {educations !== "" &&
-            educations.map((education) => {
+          {educations && educations.length > 0 &&
+            educations.map((education, index) => {
               return (
-                <div className="edu-card" key={education}>
+                <div className="edu-card" key={`education-${index}`}>
                   <p className="card-text1">
                     <SlCalender className="icon" /> {education.date}
                   </p>
@@ -52,10 +29,10 @@ const Experience = ({ state }) => {
         {/* experience */}
         <div className="education">
           <h1 className="edu-tittle">Experience</h1>
-          {experiences != "" &&
-            experiences.map((experience) => {
+          {experiences && experiences.length > 0 &&
+            experiences.map((experience, index) => {
               return (
-                <div className="edu-card" key={experience}>
+                <div className="edu-card" key={`experience-${index}`}>
                   <p className="card-text1">
                     <SlCalender className="icon" />
                     {experience.dateRange}
